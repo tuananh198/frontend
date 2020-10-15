@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet/less" type="text/css" href="./css/styles.less">
+    <script src="/js/less.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="container inner">
+            <div class="inner">
                 <div class="inner__content">
                     <h3>Spring 2017</h3>
                     <h1>IT'S YOUR</br>SHINE TIME</h1>
@@ -91,48 +91,47 @@
         <div class="container__featured">
             <div class="featured__desc clearfix">
                 <p class="featured__desc-item">Featured items</p>
-                <a href="" class="featured__desc-more">VIEW MORE</a>
+                <div class="featured__desc-more">
+                    <a href="">VIEW MORE</a>
+                    <i class="far fa-play-circle"></i>
+                </div>
             </div>
             <div class="featured__list">
                 <div class="item__wrap">
                     <div class="featured__item">
                         <img src="./image/kubusbow-small.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
                         </div>
                     </div>
                     <div class="featured__item-desc">
-                        <ul >
-                            <li><p class="featured__item-desc-name">Kubusbowl Small</p></li>
-                            <li><div class="featured__item-desc-price">$19.00</p></li>
-                        </ul>
+                            <p class="featured__item-desc-name">Kubusbowl Small</p>
+                            <div class="featured__item-desc-price">$19.00</div>
                     </div>
                 </div>
                 <div class="item__wrap">
                     <div class="featured__item">
                         <img src="./image/davine-foottool.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
                         </div>
                     </div>
                     <div class="featured__item-desc">
-                        <ul>
-                            <li><p class="featured__item-desc-name">Divine Footstool</p></li>
-                            <li><div class="featured__item-desc-price">$179.00</div></li>
-                        </ul>
+                            <p class="featured__item-desc-name">Divine Footstool</p>
+                            <div class="featured__item-desc-price">$179.00</div>
                     </div>
                 </div>
                 <div class="item__wrap">
                     <div class="featured__item">
                         <img src="./image/cache-pendamt-lamp.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -147,7 +146,7 @@
                     <div class="featured__item">
                         <img src="./image/rio-char.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -164,7 +163,7 @@
                     <div class="featured__item">
                         <img src="./image/cache-pendant-2.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -179,7 +178,7 @@
                     <div class="featured__item">
                         <img src="./image/prismatic-table.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -194,7 +193,7 @@
                     <div class="featured__item">
                         <img src="./image/copbart-cup.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -209,7 +208,7 @@
                     <div class="featured__item">
                         <img src="./image/montana-collection.jpg" alt="" class="featured__item-bg">
                         <div class="featured__item-button">
-                            <a href=""><img src="./image/add-to-cart.jpg" alt=""></a>
+                            <a href="">ADD TO CART</a>
                             <a href=""><img src="./image/heart-icon.png" alt=""></a>
                             <a href=""><img src="./image/wifi-icon.png" alt=""></a>
                             <a href=""><img src="./image/search-icon.png" alt=""></a>
@@ -265,12 +264,12 @@
         </div>
         <div class="container__logo">
             <div class="container__logo-list">
-                <img src="./image/rolexlogo.png" alt="">
-                <img src="./image/elle-logo.png" alt="">
-                <img src="./image/3-logo.png" alt="">
-                <img src="./image/jubilee-logo.png" alt="">
-                <img src="./image/triton-logo.png" alt="">
-                <img src="./image/pandora-logo.png" alt="">
+                <a href=""><img src="./image/rolexlogo.png" alt=""></a>
+                <a href=""><img src="./image/elle-logo.png" alt=""></a>
+                <a href=""><img src="./image/3-logo.png" alt=""></a>
+                <a href=""><img src="./image/jubilee-logo.png" alt=""></a>
+                <a href=""><img src="./image/triton-logo.png" alt=""></a>
+                <a href=""><img src="./image/pandora-logo.png" alt=""></a>
             </div>
         </div>
         <div class="container__footer">
@@ -279,7 +278,7 @@
                         <img src="./image/logofire.png" alt="" class="menu__logo">
                     <div class="menu__list" >
                         <ul>
-                            <li>HOME</li>
+                            <li> HOME</li>
                             <li>ABOUT</li>
                             <li>SERVICES</li>
                             <li>PORTFOLIO</li>
